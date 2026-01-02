@@ -2,6 +2,7 @@ from fastapi import APIRouter
 from datetime import datetime
 from app.core.database import database
 from app.models.project import Project, ProjectCreate
+from typing import List
 
 router = APIRouter(prefix="/projects", tags=["Projects"])
 
